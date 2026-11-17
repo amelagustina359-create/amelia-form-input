@@ -182,7 +182,7 @@ class DashboardPage extends StatelessWidget {
         label: const Text('Tambah'),
       ),
       body: ListView(
-        padding: const EdgeInsets.fromLTRB(16, 8, 16, 96),
+        padding: const EdgeInsets.fromLTRB(16, 8, 16, 32),
         children: [
           // Kartu sapaan berisi identitas singkat.
           BannerGradasi(
@@ -732,7 +732,7 @@ class ProfilPage extends StatelessWidget {
     'NIM': '701240083',
     'Program Studi': 'Sistem Informasi',
     'Semester': '5',
-    'Email': 'ameluinjambi.ac.id', 
+    'Email': 'amel@uinjambi.ac.id', 
   };
 
   static const List<String> keahlian = ['Flutter', 'Basis Data', 'Desain UI'];
